@@ -1,0 +1,92 @@
+body{
+    font-family:'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+
+a.menu:hover{
+    background-color: #00FFA7;
+    color: white;
+}
+a.active{
+    background-color: #4CAF50;
+    color: white;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.fadein {
+    margin-top: 222px;
+    margin-left: 500px;
+    font-size: 21px;
+    position: absolute;
+    animation: fadein 3s;
+}
+
+#fadeinslow{
+    margin-top: 310px;
+    margin-left: -180px;
+    font-size: 14px;
+    text-align: right;
+    animation: fadein 4s;
+    
+}
+#fadeinslower{
+    margin-top: 50px;
+    font-size: 14px;
+    text-align: center;
+    animation: fadein 5s;
+}
+
+.display {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+}
+
+#fadeinslowest{
+    font-size: 14px;
+    text-align: center;
+    animation: fadein 6s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:0.95;
+    }
+}
+#logo {
+    height: 27px;
+    width: 27px;
+}
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #00FFA7;
+  z-index: 1;
+}
+
+#social{
+    color: #00FFA7;
+    font-size: 30px;
+}
+
+.fadein-about {
+    animation: fadein 6s;
+    letter-spacing: 6px; 
+    font-size:3vw;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 40px;
+}
+
+
+
+

@@ -1,0 +1,243 @@
+body{
+    font-family:'Roboto Mono', monospace;
+    font-size: 14px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.87);
+}
+
+a{
+    display: block;
+    color: #00FFA7;
+    text-decoration: none;
+}
+
+a:hover {
+    background-size: 100% 2px;
+}
+
+/*Navigation*/
+nav{
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.54);
+  line-height: 0.5;
+  letter-spacing: 1.0px;
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  float: left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav a{
+    font-family:'Roboto Mono', monospace;
+    display: block;
+    color: #00FFA7;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-size .5s ease;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+#logo {
+    height: 27px;
+    width: 27px;
+}
+
+/*Index Page*/
+
+.fadein {
+    animation: fadein 3s;
+    letter-spacing: 6px;
+    font-size: 3vw;
+}
+
+#fadeinslow{
+    font-size: 14px;
+    text-align: right;
+    animation: fadein 4s;
+    
+}
+#fadeinslower{
+    font-size: 14px;
+    text-align: center;
+    animation: fadein 5s;
+}
+
+.display {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    letter-spacing: 6px;
+    font-size: 3vw;
+}
+
+#fadeinslowest{
+    font-size: 14px;
+    text-align: center;
+    animation: fadein 6s;
+}
+
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+
+
+#header {
+  height: 40px;
+  width: 100%;
+  background-color: #00FFA7;
+  z-index: 1;
+}
+
+.social{
+    color: #00FFA7;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.img-circle {
+    animation: fadein 4s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    padding: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+#learnmore {
+    justify-content: center;
+    display: flex;
+}
+
+.li {
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.54);
+    line-height: 0.5;
+    letter-spacing: 1.0px;
+    margin: 6px;
+    display: flex;
+    justify-content: center;
+    float: left;
+}
+
+#subhead {
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+}
+
+#heading{
+    letter-spacing: 6px;
+    font-size: 3vw;
+    position: absolute;
+    top: 40%;
+    left: 0;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.aboutme{
+    animation: fadein 6s;
+    letter-spacing: 6px;
+    font-size: 4vw;
+    line-height: 20px;
+    margin: auto;
+}
+
+#subpage-heading {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    display: block;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  color: #7E7E7E;
+  text-align: center;
+}
+
+header{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 6px;
+}
+
+.resumeheading{
+    letter-spacing: 6px;
+    font-size: 3.75em;
+    padding-top: 120px;
+    text-align: center;
+}
+
+.header{
+    margin-top: 60px;
+    font-family: 'Montserrat', sans-serif;
+    border-bottom: 3px groove black;
+    font-weight:bold;
+    color: #00FFA7;
+    letter-spacing: 4px;
+}
+.resume{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.exercises li,ul{
+    text-align:center;
+    list-style-type: none;
+    padding: 1px;
+}
+
+.exercise{
+    font-family: 'Montserrat', sans-serif;
+    animation: fadein 3s;
+    letter-spacing: 6px;
+    font-size: 3vw;
+
+}
+
+.exercises{
+  width: 300px;
+  border: 1px blurred;
+  margin-top: 50px;
+  box-shadow: 5px 10px 8px #888888;
+  padding: 10px;
+  
+}
+
+.mediapage{
+   font-family: 'Montserrat', sans-serif; 
+}
+
+.card{
+   font-family: 'Montserrat', sans-serif; 
+   width: 400px;
+   border: 2px blurred;
+   margin-top: 50px;
+   box-shadow: 1px 20px 10px #888888;
+   display: inline-block;
+   padding: 70px;
+   
+}
+
+
