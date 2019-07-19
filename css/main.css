@@ -1,5 +1,18 @@
+/*TO DO
+-Increase Padding With Navigation Bar
+-Clean up CSS file
+-Increase letter spacing in the navigation bar 
+-Align Navigation to the right, it looks better there
+-Make this website responsive
+-Develop CSS for the blog part of the website
+-Create a style guide page so everything can be organized
+-Update Typeface to Dosis
+-Add Javascript and design elements
+*/
+
+
 body{
-    font-family:'Roboto Mono', monospace;
+    font-family:'Dosis', monospace;
     font-size: 14px;
     line-height: 20px;
     color: rgba(0, 0, 0, 0.87);
