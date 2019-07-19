@@ -1,6 +1,6 @@
 /*TO DO
--Increase Padding With Navigation Bar
 -Clean up CSS file
+-Increase Padding With Navigation Bar
 -Increase letter spacing in the navigation bar 
 -Align Navigation to the right, it looks better there
 -Make this website responsive
@@ -10,15 +10,33 @@
 -Add Javascript and design elements
 */
 
+/* Reusable/General Elements */
 
 body{
-    font-family:'Dosis', monospace;
-    font-size: 14px;
+    font-family: 'Dosis', monospace;
     line-height: 20px;
+    font-size: 14px;
     color: rgba(0, 0, 0, 0.87);
+    
 }
 
-a{
+/*Navigation Bar */
+nav{
+    text-transform: uppercase;
+    justify-content: center;
+    float: right;
+    list-style-type: none;
+  }
+
+
+.logo{
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+
+
+nav a{
     display: block;
     color: #00FFA7;
     text-decoration: none;
@@ -28,20 +46,14 @@ a:hover {
     background-size: 100% 2px;
 }
 
+/*Index*/
+
+
+
+/*About Me Page*/
+
+
 /*Navigation*/
-nav{
-  text-transform: uppercase;
-  color: rgba(0, 0, 0, 0.54);
-  line-height: 0.5;
-  letter-spacing: 1.0px;
-  margin: 6px;
-  display: flex;
-  justify-content: center;
-  float: left;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
 
 nav a{
     font-family:'Roboto Mono', monospace;
@@ -54,10 +66,7 @@ nav a{
 nav a:hover{
     text-decoration: underline;
 }
-#logo {
-    height: 27px;
-    width: 27px;
-}
+
 
 /*Index Page*/
 
