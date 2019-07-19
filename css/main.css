@@ -1,8 +1,5 @@
 /*TO DO
 -Clean up CSS file
--Increase Padding With Navigation Bar
--Increase letter spacing in the navigation bar 
--Align Navigation to the right, it looks better there
 -Make this website responsive
 -Develop CSS for the blog part of the website
 -Create a style guide page so everything can be organized
@@ -42,6 +39,7 @@ nav a{
     color: #00FFA7;
     text-decoration: none;
     padding: 8px 16px;
+    letter-spacing: 1px;
     font-family:'Roboto Mono', monospace;
 }
 
@@ -160,7 +158,7 @@ nav a{
     display: block;
 }
 
-.footer {
+footer {
   position: fixed;
   left: 0;
   bottom: 0;
