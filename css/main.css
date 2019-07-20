@@ -27,7 +27,7 @@ body{
 }
 
 .margin-top{
-    margin-top: 40px;
+    padding-top: 40px;
 }
 
 .margin-left{
@@ -64,13 +64,37 @@ nav a{
 }
 
 .header-text{
-    padding-top: 30px;
     display: flex;
     justify-content: center;
-    margin-top: 5%;
     width:100%; 
     font-size: 50px;
-    animation: fadein 4s;
+    animation: fadein 1s;
+}
+
+.container{
+    padding-top: 100px;
+}
+
+.button-main{
+    border: 1px solid black;
+    height: 50px;
+    width: 150px;
+    background-color: white;
+    margin-top: 50px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, .11), 0 1px 3px rgba(0, 0, 0, .08);
+    cursor: pointer;
+    outline: 0; 
+}
+
+.button-main:hover{
+    animation: button-animation 1s;
+}
+
+@keyframes button-animation{
+    0%,25%{
+        border: transparent;
+    }
+
 }
 
 /* Footer */
@@ -85,15 +109,6 @@ footer {
 
 
 /*Index*/
-
-
-
-/*About Me Page*/
-
-
-
-/*Index Page*/
-
 /* Fade In Animation */
 .fadeinslow, .fadeinslower, .fadeinslowest {
     letter-spacing: 6px;
@@ -126,6 +141,7 @@ footer {
 }
 
 
+/*About Me Page*/
 
 .social{
     color: #00FFA7;
