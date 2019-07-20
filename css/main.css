@@ -34,6 +34,10 @@ body{
     margin-left: 100px;
 }
 
+.margin-200-left{
+    margin-left: 200px;
+}
+
 /*Navigation Bar */
 .logo{
     float: left;
@@ -60,9 +64,10 @@ nav a{
 }
 
 .header-text{
-    display: inline-block;
-    text-align: center; 
-    margin-top: 5%; 
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
     width:100%; 
     font-size: 50px;
     animation: fadein 4s;
@@ -99,18 +104,15 @@ footer {
 }
 
 .fadeinslow{
-    text-align: right;
     animation: fadein 4s;
 
 }
 .fadeinslower{
-    text-align: center;
     animation: fadein 5s;
 }
 
 
 .fadeinslowest{
-    text-align: center;
     animation: fadein 6s;
 }
 
@@ -135,21 +137,19 @@ footer {
 
 .img-circle {
     animation: fadein 4s;
-    float: right;
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    margin-right:100px;
+    margin-right:300px;
 }
 
 .learnmore {
     justify-content: center;
     display: flex;
-    margin-left:200px;
     text-indent: 25px;
 }
 
-#subhead {
+.subhead {
     position: absolute;
     top: 40%;
     left: 0;
@@ -169,6 +169,13 @@ footer {
     margin-top: -20px;
 }
 
+.subpage-heading {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100%;
+    display: block;
+}
 
 
 
