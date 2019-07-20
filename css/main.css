@@ -18,7 +18,21 @@ body{
 }
 
 /* Generic OOCSS */
+.center{
+    text-align: center;
+}
 
+.display-inline{
+    display: inline;
+}
+
+.margin-top{
+    margin-top: 40px;
+}
+
+.margin-left{
+    margin-left: 100px;
+}
 
 /*Navigation Bar */
 .logo{
@@ -121,21 +135,18 @@ footer {
 
 .img-circle {
     animation: fadein 4s;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+    float: right;
     border-radius: 50%;
     height: 200px;
     width: 200px;
-    padding: 40px;
-    justify-content: center;
-    display: flex;
+    margin-right:100px;
 }
 
-#learnmore {
+.learnmore {
     justify-content: center;
     display: flex;
+    margin-left:200px;
+    text-indent: 25px;
 }
 
 #subhead {
@@ -147,7 +158,7 @@ footer {
     font-family: 'Roboto', sans-serif;
 }
 
-#heading{
+.heading{
     letter-spacing: 6px;
     font-size: 3vw;
     position: absolute;
