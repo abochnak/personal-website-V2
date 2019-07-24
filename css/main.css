@@ -14,8 +14,11 @@ body{
     line-height: 20px;
     font-size: 14px;
     color: rgba(0, 0, 0, 0.87);
+    position: relative;
     
 }
+
+
 
 /* Generic OOCSS */
 .center{
@@ -73,6 +76,7 @@ nav a{
 
 .container{
     padding-top: 100px;
+    height: 100%;
 }
 
 .button-main{
@@ -99,12 +103,14 @@ nav a{
 
 /* Footer */
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: whitesmoke;
-    color: #7E7E7E;
-    text-align: center;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+  width: 100%;
   }
 
 
@@ -192,6 +198,5 @@ footer {
     width: 100%;
     display: block;
 }
-
 
 
