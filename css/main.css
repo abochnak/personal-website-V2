@@ -1,4 +1,5 @@
 /*TO DO
+-FIX THE FOOTER
 -Clean up CSS file
 -Make this website responsive
 -Develop CSS for the blog part of the website
@@ -103,14 +104,12 @@ nav a{
 
 /* Footer */
 footer {
-  position: relative;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: #efefef;
-  text-align: center;
-  width: 100%;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: whitesmoke;
+    color: #7E7E7E;
+    text-align: center;
   }
 
 
